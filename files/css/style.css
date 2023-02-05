@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(../font/Poppins-MediumItalic.ttf);
+}
+@font-face {
+    font-family: 'open-sans', sans-serif;
+    src:  url(../font/OpenSans-LightItalic.ttf);
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: 3px underline blue;
+ 
+}
+
+.li1 {
+    display: inline-block;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+.li2 {
+    display: inline-block;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    cursor: pointer;
+    margin-left: 66px;
+    margin-right: 66px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.li3 {
+    display: inline-block;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid #000000;
+
+}
+
+li:hover{
+    text-decoration: 3px underline blue;
+ 
+}
+dt,li {
+    font-family: 'open-sans', sans-serif;
+    font-size: 14px;
+}
+
+/*section css*/
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 72px;
+    margin-bottom: 64px;
+}
+h1:hover{
+    text-decoration: 3px underline blue;
+}
+
+.div-border2 {
+    display: inline-block;
+    width: 350px;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.div1-1 {
+    display: inline-block;
+    width: 355px;
+    border: 3px solid white;
+    margin-left: 70px;
+    margin-bottom: 40px;
+
+}
+.div1-2 {
+    display: inline-block;
+    width: 355px;
+    border: 3px solid white;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 40px;
+
+}.div1-3 {
+    display: inline-block;
+    width: 355px;
+    border: 3px solid white;
+    margin-bottom: 40px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+
+}
+h3:hover{
+    text-decoration: 3px underline blue;
+}
+
+p {
+    font-size: 18px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+  
+}
+
+p:hover{
+    text-decoration: 3px underline blue;
+}
+
+
+button {
+    margin-left: 257px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 6px 10px;
+    font-size: 10;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+
+button:hover{
+    text-decoration: 2px underline blue;
+}
+
+/*about style */
+
+.about-h1 {
+    text-align: center;
+    margin-top: 159px;
+    margin-bottom: 116px;
+    font-size: 40px;
+    color:chocolate;
+    font-family: 'open-sans', sans-serif;
+
+}
+
+.about-p {
+    padding-left: 170px;
+    font-size: 25px;
+    margin-right: 550px;
+    font-family: 'open-sans', sans-serif;
+
+}
+.adress {
+    margin-top: 100px;
+    margin-left: 170px;
+    margin-bottom: 40px;
+    font-size: 25px
+}
+
+ /* contact */
+
+.contact-title {
+    text-align: center;
+    margin-top: 180px;
+    font-size: 40px;
+    color:chocolate;
+    font-family: 'open-sans', sans-serif;
+
+}
+
+.contact-ul {
+    margin-left: 175px;
+    margin-bottom: 20px;
+    font-family: 'open-sans', sans-serif;
+
+}
+
+.meil {
+    display: block;
+    margin-top: 147px;
+    font-size: 25px;
+}
+
+.misamarti {
+    display: block;
+    margin-top: 28px;
+    font-size: 25px;
+
+}
+.tel {
+    display: block;
+    margin-top: 28px;
+    font-size: 25px;
+
+}
+
+
